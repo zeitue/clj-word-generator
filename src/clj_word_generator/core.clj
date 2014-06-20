@@ -21,4 +21,4 @@
   (if-not (nil? args)
     (let [sounds (get-lines (nth args 0 nil))]
  (word-runner 1 args "" sounds))
- (println "Usage: clj-word-generator LanguageFile ListName1 ListName2 ListName3")))
+ (println "Usage: clj-word-generator ListFile List1 List2 List3")))
